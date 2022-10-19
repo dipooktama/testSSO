@@ -1,0 +1,20 @@
+{
+    "name": "dipo/sso",
+    "description": "buat ngetes konsep plugin sso moodle",
+    "type": "project-plugin",
+    "autoload": {
+        "psr-4": {
+            "Dipo\\Sso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dipo Oktama",
+            "email": "dipooktama25@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.3"
+    }
+}
